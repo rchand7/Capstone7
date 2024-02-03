@@ -816,7 +816,7 @@ with open('rf1_modell.pkl','rb') as file:
 
 
 sample=df.sample(20)
-sample.to_csv("Sample.csv")
+sample.to_csv("samplee.csv")
 
 y_sample_true=sample['selling_price']
 sample=sample.drop('selling_price',axis=1)
