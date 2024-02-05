@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
-df=pd.read_excel("CAR_DETAILS.xlsx")
+df=pd.read_csv("CAR_DETAILS.csv")
 
 
 
